@@ -10,3 +10,10 @@ yum install jenkins
 service jenkins start
 service jenkins stop
 ps -ef | grep java
+
+maven
+install mav package 
+wget http://apachemirror.wuchna.com/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz
+setup env variables
+.bashrc
+export PATH=$PATH:/usr/local/prs/apache-maven-3.6.3/bin
