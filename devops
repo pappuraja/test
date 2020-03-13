@@ -27,6 +27,12 @@ enabled=1
 gpgcheck=1
 gpgkey=http://opensource.wandisco.com/RPM-GPG-KEY-WANdisco "
 
- sudo rpm --import http://opensource.wandisco.com/RPM-GPG-KEY-WANdisco
- 
- sudo yum install git
+sudo rpm --import http://opensource.wandisco.com/RPM-GPG-KEY-WANdisco
+sudo yum install git
+
+
+docker install centos7
+sudo curl  https://download.docker.com/linux/centos/docker-ce.repo -o /etc/yum.repos.d/docker-ce.repo
+sudo yum makecache
+yum -y  install docker
+systemctl enable --now docker
