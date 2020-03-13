@@ -48,4 +48,9 @@ docker tag   admin:latest1  admin:latest1
 docker push raja434/tfpp-ret:latest10} example
 
 
+k8
+===========================
+
+
+
 
