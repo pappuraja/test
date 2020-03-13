@@ -41,6 +41,9 @@ docker commans
 ================
 1> docker ps  ---> To view the docker container ID and version
 2> sudo docker restart (container_ID) --->To restart docker container
+3> sudo docker logs default -f ---> to view the docker logs
+4> sudo docker exec -it <container id> ---> to ssh to the docker container
+
 
 
 
