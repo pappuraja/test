@@ -46,6 +46,9 @@ docker commans
 {docker build -t tfcom-nginx:latest7 .
 docker tag   admin:latest1  admin:latest1
 docker push raja434/tfpp-ret:latest10} example
+5> systemctl start docker , systemctl status docker (docker engin start)
+
+
 
 
 k8
