@@ -37,16 +37,21 @@ sudo curl  https://download.docker.com/linux/centos/docker-ce.repo -o /etc/yum.r
 sudo yum makecache
 yum -y  install docker
 systemctl enable --now docker
-docker commans
+docker commands
 ================
 1> docker ps  ---> To view the docker container ID and version
 2> sudo docker restart (container_ID) --->To restart docker container
 3> sudo docker logs default -f ---> to view the docker logs
 4> sudo docker exec -it <container id> ---> to ssh to the docker container
-{docker build -t tfcom-nginx:latest7 .
-docker tag   admin:latest1  admin:latest1
-docker push raja434/tfpp-ret:latest10} example
-5> systemctl start docker , systemctl status docker (docker engin start)
+5> sudo docker build -t prsdocker143/pebble:v2 (latestversion) .
+6> sudo docker run -d -it --name (apache/tomcat1) -p 81:80 (docker image) or dockerhub id
+7> sudo docker push prsdocker143/pebble:v2(version)
+
+
+
+
+
+
 
 
 
